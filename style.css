@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@font-face {
+  font-family: "emoji";
+  src: url("./NotoColorEmoji.ttf");
+}
+
+img {
+  width: 40%;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Pacifico";
+  text-shadow: 5px 5px 3px rgb(253, 166, 224);
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Lato";
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "Lato";
+  margin-top: 10px;
+}
+
+
+body {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-image: url("./images/marble.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-family: "Pacifico";
+  font-size: 20px;
+  box-shadow: 5px 5px 8px rgb(73, 73, 73);
+  width: 60%;
+}
+
+button:hover {
+  background-color: rgb(253, 166, 224);
+}
+
+.main {
+  background-color: rgba(141, 19, 165, 0.692);
+  border-radius: 10px;
+  padding: 20px 0px;
+  margin: 20px 0px 25px 0px;
+  box-shadow: 10px 10px 10px rgb(153, 151, 151);
+  height: 60%;
+}
+
+p {
+  padding: 0px 50px;
+  text-align: left;
+  font-family: "Lato";
+  font-size: 20px;
+}
+
+.today {
+  font-family: "Pacifico";
+  font-size: 18px;
+  margin-bottom: 0px;
+}

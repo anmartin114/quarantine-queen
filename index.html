@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quarantine Queen</h1>
+    <p class="today" style="display: none;">On today's agenda...</p>
+    <div class="main">
+      <div class="before">
+        <p>
+          COVID-19 got us all quarantined up, but don't let our crumbling
+          society bring you down! Here's a few things to keep you occupied
+          during these trying times.
+        </p>
+        <img src="./images/mask.png" />
+      </div>
+      <div style="display:none" class="after">
+        <h2 class="title"></h2>
+        <img class="actimage" />
+        <h3 class="description"></h3>
+      </div>
+      <button onclick="generate()">What are we gonna do today?</button>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
